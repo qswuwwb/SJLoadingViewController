@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SJLoadViewController
 
 [![CI Status](https://img.shields.io/travis/qswuwwb/SJLoadViewController.svg?style=flat)](https://travis-ci.org/qswuwwb/SJLoadViewController)
@@ -27,3 +28,6 @@ qswuwwb, qswuw@sina.com
 ## License
 
 SJLoadViewController is available under the MIT license. See the LICENSE file for more info.
+=======
+# SJLoadingViewController
+>>>>>>> 3de4cf93c6f468c7824c26657752c3a8a64bd0e2
