@@ -31,7 +31,7 @@
 		037EC2E71EA195AAE5A5293F /* Pods_SJLoadViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJLoadViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F70EEF27B5BE9B1833FB049 /* Pods-SJLoadViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJLoadViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJLoadViewController_Example/Pods-SJLoadViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		17AA81BCD2582F91C346589F /* Pods-SJLoadViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJLoadViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJLoadViewController_Example/Pods-SJLoadViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1BD4284344358CD473B5AC6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1BD4284344358CD473B5AC6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2976016FB2816D8F0A2A457C /* Pods-SJLoadViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJLoadViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJLoadViewController_Tests/Pods-SJLoadViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SJLoadViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJLoadViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8BE9BDA66E086B6B0574C483 /* Pods_SJLoadViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJLoadViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		988756E8A8BB16F6B14D20CD /* SJLoadViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SJLoadViewController.podspec; path = ../SJLoadViewController.podspec; sourceTree = "<group>"; };
+		988756E8A8BB16F6B14D20CD /* SJLoadViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SJLoadViewController.podspec; path = ../SJLoadViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD8CE7ECBB92437D983D7627 /* Pods-SJLoadViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJLoadViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJLoadViewController_Tests/Pods-SJLoadViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F2D7CA89B4FAA02EA001B5C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F2D7CA89B4FAA02EA001B5C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = C6RCJQ2UT7;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = C6RCJQ2UT7;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -494,6 +496,7 @@
 			baseConfigurationReference = 0F70EEF27B5BE9B1833FB049 /* Pods-SJLoadViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C6RCJQ2UT7;
 				INFOPLIST_FILE = SJLoadViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -509,6 +512,7 @@
 			baseConfigurationReference = 17AA81BCD2582F91C346589F /* Pods-SJLoadViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C6RCJQ2UT7;
 				INFOPLIST_FILE = SJLoadViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2976016FB2816D8F0A2A457C /* Pods-SJLoadViewController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = C6RCJQ2UT7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -545,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD8CE7ECBB92437D983D7627 /* Pods-SJLoadViewController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = C6RCJQ2UT7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

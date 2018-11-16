@@ -1,0 +1,6 @@
+framework module SJLoadViewController {
+  umbrella header "SJLoadViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
